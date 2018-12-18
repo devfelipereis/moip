@@ -71,6 +71,16 @@ class Moip
     }
 
     /**
+     * Create a new Holder instance.
+     *
+     * @return \Moip\Resource\Holder
+     */
+    public function holders()
+    {
+        return $this->moip->holders();
+    }
+
+    /**
      * Create a new Entry instance.
      *
      * @return \Moip\Resource\Entry
